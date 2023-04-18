@@ -38,12 +38,16 @@ For this competition MSKCC is making available an expert-annotated knowledge bas
 <h2> Business Constraints </h2>
 
 1.Interpretability of the algorithm is must because a cancer specialist should understand why the model is given particular class so that he can explain to the patient.
+
 2.No low-latency requirement which means patient can wait for the results. As there is no low-latency requirement, we can apply complex machine learning models.
+
 3.Errors are very costly.
+
 4.Probability of belonging to class is needed rather than it belonging to particular class.
 
 <h2>Perfomance Metric </h2>
 * Multi class log-loss 
+
 * Confusion matrix 
 
 <h2>Machine Learning Objective and Constraints</h2>
@@ -51,7 +55,11 @@ For this competition MSKCC is making available an expert-annotated knowledge bas
 </p>
 <p> Constraints:
 </p>
+
 * Interpretability
+
 * Class probabilities are needed.
+
 * Penalize the errors in class probabilites => Metric is Log-loss.
+
 * No Latency constraints.
