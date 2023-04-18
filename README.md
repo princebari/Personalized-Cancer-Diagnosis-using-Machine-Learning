@@ -46,6 +46,7 @@ For this competition MSKCC is making available an expert-annotated knowledge bas
 4.Probability of belonging to class is needed rather than it belonging to particular class.
 
 <h2>Perfomance Metric </h2>
+
 * Multi class log-loss 
 
 * Confusion matrix 
